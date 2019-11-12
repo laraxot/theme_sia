@@ -1,6 +1,14 @@
-@extends('pub_theme::layouts.app')
-@section('content')
-<div class="main-container home">
+<!DOCTYPE html>
+<html lang="it" prefix="og: http://ogp.me/ns#">
+
+   @include('pub_theme::layouts.partials.htmlheader')
+
+<body>
+
+    <!-- HEAD -->
+    @include('pub_theme::layouts.partials.headernav')
+    <!-- CONTENT -->
+    <div class="main-container home">
         <section class="text-center height-80 imagebg unpad--top">
             <div class="stripes"></div>
             <div class="container pos-vertical-center">
@@ -327,4 +335,12 @@
             <!--end of container-->
         </section>
     </div>
-@endsection
+
+    <!-- FOOTER -->
+
+    @include('pub_theme::layouts.partials.footer')
+    @include('pub_theme::layouts.partials.scripts')
+    
+</body>
+
+</html>
