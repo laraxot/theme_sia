@@ -56,7 +56,7 @@
 															<div class="col-md-10 col-md-offset-1">
 																<img alt="Logo" src="{{ Theme::asset('pub_theme::images/logo-light.png') }}"class="image--xxs" />
 																<span class="h3 color--white">Le nostre soluzioni software.</span>
-																<a href="{{ url('panoramica-prodotti') }}" class="btn btn--primary type--uppercase">
+																<a href="{{ route('container0.index',['container0'=>'product','lang'=>$lang]) }}" class="btn btn--primary type--uppercase">
 																	<span class="btn__text">
 																		VEDI LA PANORAMICA »
 																	</span>
