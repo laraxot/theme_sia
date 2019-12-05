@@ -41,6 +41,11 @@
 		@foreach($cat->products as $prod)
 					<div class="col-sm-4">
 					   <div class="feature feature-3 boxed boxed--lg boxed--border text-center">
+					   	   <span class="label ">
+					   	   	{{-- bg--primary --}}
+					   	   	{!! $prod->ratingAvgHtml() !!}
+
+					   	   </span>
 						   <img src="http://sia_laravel.local/images/frontend_images/loghi/software-assicurazione-compagnie-sia-jmil.png" alt="logo-jmil">
 						   <h4>{{ $prod->title }}</h4>
 						   <p>{{ $prod->subtitle }}</p>

@@ -1,4 +1,4 @@
-<script>
+
 	WebFontConfig = {
 		// other options and settings
 		timeout: 2000,
@@ -11,4 +11,3 @@
 			families: ['Open+Sans:300,400,400i,600,700', 'Material+Icons']
 		}
 	});
-</script>
